@@ -15,5 +15,6 @@ public class Person implements Info {
 
     public void showInfo() {
         System.out.println("hello, my name is" + name);
+        sayHello();
     }
 }
